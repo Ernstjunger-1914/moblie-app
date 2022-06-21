@@ -27,7 +27,7 @@ object Logger {
     }
 
     /**
-     * Log Level Infomation
+     * Log Level Information
      */
     fun i(message: String) {
         if (BuildConfig.DEBUG) Log.i(TAG, buildLogMessage(message))
