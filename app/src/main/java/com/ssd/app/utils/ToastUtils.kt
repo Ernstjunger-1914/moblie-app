@@ -5,8 +5,22 @@ import android.widget.Toast
 
 object ToastUtils {
 
-    fun showToast(context: Context, message: String) {
+    /**
+     * 2초 나타남
+     * @param context context 정보
+     * @param message 보여줄 메세지
+     */
+    fun showShortToast(context: Context, message: String) {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
     }
-    
+
+    /**
+     * 4초 나타남
+     * @param context context 정보
+     * @param message 보여줄 메세지
+     */
+    fun showLongToast(context: Context, message: String) {
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show()
+    }
+
 }
