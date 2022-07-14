@@ -2,5 +2,7 @@
 
     <string name="app_name">App</string>
     <string name="ssd">손소독</string>
+    <string name="ssd_mail">ssd099@ssd.com</string>
+    <string name="setting">설정</string>
 
 </resources>
