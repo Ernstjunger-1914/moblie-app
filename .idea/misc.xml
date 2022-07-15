@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/kotlin/App/app/src/main/res/drawable/back_button.xml" value="0.316" />
         <entry key="..\:/kotlin/App/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.316" />
+        <entry key="..\:/kotlin/App/app/src/main/res/drawable/phone_android_icon.xml" value="0.316" />
+        <entry key="..\:/kotlin/App/app/src/main/res/drawable/settings_icon.xml" value="0.316" />
         <entry key="..\:/kotlin/App/app/src/main/res/drawable/sidemenu_button.xml" value="0.316" />
         <entry key="..\:/kotlin/App/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/kotlin/App/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />

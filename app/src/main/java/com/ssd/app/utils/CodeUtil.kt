@@ -1,5 +1,4 @@
 package com.ssd.app.utils
 
-object CodeUtils {
-
+object CodeUtil {
 }

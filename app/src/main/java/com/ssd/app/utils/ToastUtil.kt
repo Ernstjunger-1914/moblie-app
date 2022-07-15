@@ -3,7 +3,7 @@ package com.ssd.app.utils
 import android.content.Context
 import android.widget.Toast
 
-object ToastUtils {
+object ToastUtil {
 
     /**
      * 2초 나타남

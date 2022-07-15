@@ -86,7 +86,7 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/color_3d8dd8">
+                            android:background="@color/white">
 
                             <TextView
                                 android:id="@+id/profile_mail_textview"
@@ -95,7 +95,7 @@
                                 android:layout_marginStart="22dp"
                                 android:layout_marginTop="32dp"
                                 android:layout_marginEnd="22dp"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintTop_toTopOf="parent"
                                 tools:text="@string/ssd_mail" />
@@ -112,6 +112,39 @@
                                 app:layout_constraintTop_toBottomOf="@id/profile_mail_textview" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <!--
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.8dp"
+                                android:background="@color/color_797d86" />
+                            -->
+
+                            <!-- 간격 조절 textview -->
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/white"
+                                android:paddingStart="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingEnd="20dp"
+                                android:paddingBottom="1dp"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                style="@style/NavigationView"
+                                android:text="@string/setting" />
+
+                            <TextView
+                                style="@style/NavigationView"
+                                android:text="@string/phone_config" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 

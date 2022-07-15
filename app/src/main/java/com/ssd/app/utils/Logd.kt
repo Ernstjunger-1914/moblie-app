@@ -2,11 +2,13 @@ package com.ssd.app.utils
 
 import android.util.Log
 import com.ssd.app.BuildConfig
+import java.io.PrintWriter
+import java.io.StringWriter
 import java.lang.StringBuilder
 
-object Logger {
+object Logd {
 
-    private const val TAG: String = "Logger"
+    private const val TAG: String = "Logd"
 
     /**
      * Log Level Error
