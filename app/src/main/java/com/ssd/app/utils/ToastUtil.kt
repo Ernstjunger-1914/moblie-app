@@ -1,6 +1,8 @@
 package com.ssd.app.utils
 
+import android.app.Activity
 import android.content.Context
+import android.os.Handler
 import android.widget.Toast
 
 object ToastUtil {
@@ -11,7 +13,9 @@ object ToastUtil {
      * @param message 보여줄 메세지
      */
     fun showShortToast(context: Context, message: String) {
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+        Handler().post {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+        }
     }
 
     /**
@@ -20,7 +24,9 @@ object ToastUtil {
      * @param message 보여줄 메세지
      */
     fun showLongToast(context: Context, message: String) {
-        Toast.makeText(context, message, Toast.LENGTH_LONG).show()
+        Handler().post {
+            Toast.makeText(context, message, Toast.LENGTH_LONG).show()
+        }
     }
 
 }
